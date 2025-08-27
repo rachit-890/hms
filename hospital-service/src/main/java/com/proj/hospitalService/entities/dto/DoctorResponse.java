@@ -4,7 +4,6 @@ import lombok.Data;
 import lombok.Value;
 
 @Value
-@Data
 public class DoctorResponse {
     Long id;
     String fullName;

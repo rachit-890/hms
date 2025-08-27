@@ -1,15 +1,11 @@
 package com.proj.patient_service.entities.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.Value;
 
 import java.time.Instant;
 import java.time.LocalDate;
 
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
+@Value
 public class PatientResponseDto {
     Long id;
     String fullName;
